@@ -1,0 +1,156 @@
+:root {
+  /* --變數名: 值; */
+  --nav-active-color: #322b2a;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background: #c3d7cb;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+nav a {
+  color: #595853;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 35px;
+  padding-left: 12px;
+  padding-right: 12px;
+  min-width: 85px;
+  height: 63px;
+}
+
+nav .active-link {
+  color: var(--nav-active-color);
+  border-top: 4px solid var(--nav-active-color);
+}
+
+.article-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .author, .date {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .author p, .date p {
+    margin: 0;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .intro {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .intro p {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #2e7d32;
+  }
+
+  .part1 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #333;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .part2 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #333;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .part3 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #333;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  
+  .part4 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #333;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+
+  .last p {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #333;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  img {
+    display: block; /* 將圖像轉換為塊級元素 */
+    margin: 0 auto; /* 將左右邊距設為auto以置中 */
+    margin-top: 20px;
+  }
+
+  h1 {
+    color: #2e7d32;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  h2 {
+    color: #2e7d32;
+    padding-left: 120px;
+    font-size: 25px;
+    font-family: "Noto Sans TC", sans-serif;
+
+  }
+
+  .spacer {
+    height: 20px; /* 根據需要更改高度 */
+  }
+
+  body {
+    background-color: #ebebeb;
+  }
+  
+  
+  
